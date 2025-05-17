@@ -6,8 +6,39 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		6135DBF32DD5A657004DB786 /* Emotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6135DBF22DD5A64F004DB786 /* Emotion.swift */; };
+		6135DBF52DD5A671004DB786 /* EmotionDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6135DBF42DD5A670004DB786 /* EmotionDataLoader.swift */; };
+		6135DBF72DD5A683004DB786 /* EmotionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6135DBF62DD5A682004DB786 /* EmotionViewModel.swift */; };
+		6135DBFB2DD5A6BC004DB786 /* ConversationTreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6135DBFA2DD5A6AC004DB786 /* ConversationTreeView.swift */; };
+		6135DC112DD5ABC0004DB786 /* mad_sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6135DC0D2DD5ABC0004DB786 /* mad_sound.wav */; };
+		6135DC122DD5ABC0004DB786 /* scared_sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6135DC0F2DD5ABC0004DB786 /* scared_sound.wav */; };
+		6135DC132DD5ABC0004DB786 /* tired_sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6135DC102DD5ABC0004DB786 /* tired_sound.wav */; };
+		6135DC142DD5ABC0004DB786 /* curious_sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6135DC0A2DD5ABC0004DB786 /* curious_sound.wav */; };
+		6135DC152DD5ABC0004DB786 /* love_sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6135DC0C2DD5ABC0004DB786 /* love_sound.wav */; };
+		6135DC162DD5ABC0004DB786 /* sad_sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6135DC0E2DD5ABC0004DB786 /* sad_sound.wav */; };
+		6135DC172DD5ABC0004DB786 /* happy_sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6135DC0B2DD5ABC0004DB786 /* happy_sound.wav */; };
+		617D256E2DD5B690003CE940 /* EmotionWheelItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617D256D2DD5B687003CE940 /* EmotionWheelItem.swift */; };
+		617D25742DD5B74F003CE940 /* HapticScrollDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617D25732DD5B74E003CE940 /* HapticScrollDetector.swift */; };
+		617D25762DD6A918003CE940 /* EmotionCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617D25752DD6A912003CE940 /* EmotionCarouselView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		6135DBDC2DD5A5AE004DB786 /* G@C_MVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "G@C_MVP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6135DBF22DD5A64F004DB786 /* Emotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emotion.swift; sourceTree = "<group>"; };
+		6135DBF42DD5A670004DB786 /* EmotionDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionDataLoader.swift; sourceTree = "<group>"; };
+		6135DBF62DD5A682004DB786 /* EmotionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionViewModel.swift; sourceTree = "<group>"; };
+		6135DBFA2DD5A6AC004DB786 /* ConversationTreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationTreeView.swift; sourceTree = "<group>"; };
+		6135DC0A2DD5ABC0004DB786 /* curious_sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = curious_sound.wav; sourceTree = "<group>"; };
+		6135DC0B2DD5ABC0004DB786 /* happy_sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = happy_sound.wav; sourceTree = "<group>"; };
+		6135DC0C2DD5ABC0004DB786 /* love_sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = love_sound.wav; sourceTree = "<group>"; };
+		6135DC0D2DD5ABC0004DB786 /* mad_sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = mad_sound.wav; sourceTree = "<group>"; };
+		6135DC0E2DD5ABC0004DB786 /* sad_sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sad_sound.wav; sourceTree = "<group>"; };
+		6135DC0F2DD5ABC0004DB786 /* scared_sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = scared_sound.wav; sourceTree = "<group>"; };
+		6135DC102DD5ABC0004DB786 /* tired_sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tired_sound.wav; sourceTree = "<group>"; };
+		617D256D2DD5B687003CE940 /* EmotionWheelItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionWheelItem.swift; sourceTree = "<group>"; };
+		617D25732DD5B74E003CE940 /* HapticScrollDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticScrollDetector.swift; sourceTree = "<group>"; };
+		617D25752DD6A912003CE940 /* EmotionCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionCarouselView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,8 +63,15 @@
 		6135DBD32DD5A5AE004DB786 = {
 			isa = PBXGroup;
 			children = (
-				6135DBDE2DD5A5AE004DB786 /* G@C_MVP */,
+				6135DBEC2DD5A5F1004DB786 /* Models */,
 				6135DBDD2DD5A5AE004DB786 /* Products */,
+				6135DC0A2DD5ABC0004DB786 /* curious_sound.wav */,
+				6135DC0B2DD5ABC0004DB786 /* happy_sound.wav */,
+				6135DC0C2DD5ABC0004DB786 /* love_sound.wav */,
+				6135DC0D2DD5ABC0004DB786 /* mad_sound.wav */,
+				6135DC0E2DD5ABC0004DB786 /* sad_sound.wav */,
+				6135DC0F2DD5ABC0004DB786 /* scared_sound.wav */,
+				6135DC102DD5ABC0004DB786 /* tired_sound.wav */,
 			);
 			sourceTree = "<group>";
 		};
@@ -43,6 +81,45 @@
 				6135DBDC2DD5A5AE004DB786 /* G@C_MVP.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		6135DBEC2DD5A5F1004DB786 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6135DBF12DD5A63C004DB786 /* Views */,
+				6135DBEF2DD5A622004DB786 /* ViewModels */,
+				6135DBEE2DD5A61C004DB786 /* Models */,
+				6135DBDE2DD5A5AE004DB786 /* G@C_MVP */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6135DBEE2DD5A61C004DB786 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6135DBF42DD5A670004DB786 /* EmotionDataLoader.swift */,
+				6135DBF22DD5A64F004DB786 /* Emotion.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6135DBEF2DD5A622004DB786 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				6135DBF62DD5A682004DB786 /* EmotionViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6135DBF12DD5A63C004DB786 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				617D25752DD6A912003CE940 /* EmotionCarouselView.swift */,
+				617D25732DD5B74E003CE940 /* HapticScrollDetector.swift */,
+				617D256D2DD5B687003CE940 /* EmotionWheelItem.swift */,
+				6135DBFA2DD5A6AC004DB786 /* ConversationTreeView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +186,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6135DC112DD5ABC0004DB786 /* mad_sound.wav in Resources */,
+				6135DC122DD5ABC0004DB786 /* scared_sound.wav in Resources */,
+				6135DC132DD5ABC0004DB786 /* tired_sound.wav in Resources */,
+				6135DC142DD5ABC0004DB786 /* curious_sound.wav in Resources */,
+				6135DC152DD5ABC0004DB786 /* love_sound.wav in Resources */,
+				6135DC162DD5ABC0004DB786 /* sad_sound.wav in Resources */,
+				6135DC172DD5ABC0004DB786 /* happy_sound.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +203,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6135DBFB2DD5A6BC004DB786 /* ConversationTreeView.swift in Sources */,
+				617D25742DD5B74F003CE940 /* HapticScrollDetector.swift in Sources */,
+				617D25762DD6A918003CE940 /* EmotionCarouselView.swift in Sources */,
+				617D256E2DD5B690003CE940 /* EmotionWheelItem.swift in Sources */,
+				6135DBF32DD5A657004DB786 /* Emotion.swift in Sources */,
+				6135DBF72DD5A683004DB786 /* EmotionViewModel.swift in Sources */,
+				6135DBF52DD5A671004DB786 /* EmotionDataLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

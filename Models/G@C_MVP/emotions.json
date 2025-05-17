@@ -1,0 +1,121 @@
+[
+  {
+    "id": "happy",
+    "name": "Happy",
+    "iconName": "happy",
+    "soundName": "happy_sound.wav",
+    "chord": "Cmaj7",
+    "responses": [
+      {
+        "text": "I love this!",
+        "subBranches": ["Me too!", "Yay!", "Let's play!"]
+      },
+      {
+        "text": "So fun!",
+        "subBranches": ["I want more", "Do it again", "Haha"]
+      }
+    ]
+  },
+  {
+    "id": "sad",
+    "name": "Sad",
+    "iconName": "sad",
+    "soundName": "sad_sound.wav",
+    "chord": "Amin",
+    "responses": [
+      {
+        "text": "I miss you.",
+        "subBranches": ["Hug me", "I'm lonely", "I'm crying"]
+      },
+      {
+        "text": "This hurts.",
+        "subBranches": ["Make it stop", "It’s okay", "Please help"]
+      }
+    ]
+  },
+  {
+    "id": "mad",
+    "name": "Mad",
+    "iconName": "mad",
+    "soundName": "mad_sound.wav",
+    "chord": "Dmin",
+    "responses": [
+      {
+        "text": "That’s not fair!",
+        "subBranches": ["Stop it!", "I don’t like that", "No!"]
+      },
+      {
+        "text": "I’m angry!",
+        "subBranches": ["I need space", "Go away", "Back off"]
+      }
+    ]
+  },
+  {
+    "id": "scared",
+    "name": "Scared",
+    "iconName": "scared",
+    "soundName": "scared_sound.wav",
+    "chord": "F#dim",
+    "responses": [
+      {
+        "text": "I’m scared.",
+        "subBranches": ["Hold me", "I want you", "It’s dark"]
+      },
+      {
+        "text": "What’s happening?",
+        "subBranches": ["I don’t understand", "I’m nervous", "Is it safe?"]
+      }
+    ]
+  },
+  {
+    "id": "tired",
+    "name": "Tired",
+    "iconName": "tired",
+    "soundName": "tired_sound.wav",
+    "chord": "Ebmaj7",
+    "responses": [
+      {
+        "text": "I’m sleepy.",
+        "subBranches": ["Nap time", "Let’s rest", "Blanket please"]
+      },
+      {
+        "text": "Too much.",
+        "subBranches": ["I need a break", "Quiet please", "I'm done"]
+      }
+    ]
+  },
+  {
+    "id": "love",
+    "name": "Love",
+    "iconName": "love",
+    "soundName": "love_sound.wav",
+    "chord": "Gmaj",
+    "responses": [
+      {
+        "text": "I love you.",
+        "subBranches": ["Forever", "So much", "Always"]
+      },
+      {
+        "text": "You’re special.",
+        "subBranches": ["You matter", "You’re mine", "I care"]
+      }
+    ]
+  },
+  {
+    "id": "curious",
+    "name": "Curious",
+    "iconName": "curious",
+    "soundName": "curious_sound.wav",
+    "chord": "Bmaj7",
+    "responses": [
+      {
+        "text": "What is that?",
+        "subBranches": ["Show me", "Can I try?", "Again!"]
+      },
+      {
+        "text": "Let’s explore!",
+        "subBranches": ["I want to know", "Let’s see", "What happens?"]
+      }
+    ]
+  }
+]

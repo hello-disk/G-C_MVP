@@ -10,7 +10,12 @@ import SwiftData
 
 @main
 struct G_C_MVPApp: App {
-    var sharedModelContainer: ModelContainer = {
+   
+    
+    
+    
+    
+    /* var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,
         ])
@@ -22,11 +27,16 @@ struct G_C_MVPApp: App {
             fatalError("Could not create ModelContainer: \(error)")
         }
     }()
+*/
 
+    
+    
+    
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
-        .modelContainer(sharedModelContainer)
+        
     }
 }
